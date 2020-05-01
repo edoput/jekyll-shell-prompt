@@ -1,0 +1,10 @@
+<figure>
+<pre>
+<samp>
+{% for line in text %}
+{% prompt user@host:~$ %}{% command {{ line }} %}
+{% out {{ line }} %}
+{% endfor %}
+</samp>
+</pre>
+</figure>
